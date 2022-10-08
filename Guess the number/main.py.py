@@ -60,8 +60,8 @@ num_turns = choose_diff_lvl()
 game_on = True
 while game_on:
     validate_the_guess(comp_number, num_turns) 
-    Play = input("Do you want ot try again y or n").lower()
-    if play == y:
+    play = input("Do you want to try again y or n").lower()
+    if play == "y":
         print("lets play again")
     else:
         game_on = False
